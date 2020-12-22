@@ -8,10 +8,9 @@
 - Enable HTTPs in Game Settings > Security > Https Requests
 - Drag the UrbanDictionaryAPI.rbxm file in the service called Workspace
 - Create a script in Workspace with the following code:
-`local UrbanDictionary = require(workspace.UrbanDictionaryAPI)
-
-local HelloWorldInfo = UrbanDictionary.get("hello world", 2)
-print(HelloWorldInfo.definition)`
+> local UrbanDictionary = require(workspace.UrbanDictionaryAPI)
+> local HelloWorldInfo = UrbanDictionary.get("hello world", 2)
+> print(HelloWorldInfo.definition)
 
 - Run the game, open output and it will print the definition.
 - Change `hello world` to any word you want to define.
