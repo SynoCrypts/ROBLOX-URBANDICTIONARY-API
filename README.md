@@ -12,12 +12,14 @@
 
 > local UrbanDictionary = require(workspace.UrbanDictionaryAPI)
 > 
-> local HelloWorldInfo = UrbanDictionary.get("hello world", 2)
+> local HelloWorldInfo = UrbanDictionary.get("hello world", 1)
 > 
 > print(HelloWorldInfo.definition)
 
 - Run the game, open output and it will print the definition.
 - Change `hello world` to any word you want to define.
+- The second argument for `.get` is are the definitions order. First definition, second definition, etc. 
+
 > There are more than `table`.definition:
 - api.success
 - author 
