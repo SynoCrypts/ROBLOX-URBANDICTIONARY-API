@@ -1,5 +1,6 @@
 # RBLX Urban Dictionary API:
 - A roblox module-script/api that gets you definitions for your word.
+- https://www.urbandictionary.com
 
 # How to use: 
 - Firstly download the UrbanDictionaryAPI.rbxm file in this repository.
