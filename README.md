@@ -18,7 +18,7 @@
 
 - Run the game, open output and it will print the definition.
 - Change `hello world` to any word you want to define.
-- The second argument for `.get` is are the definitions order. First definition, second definition, etc. 
+- The second argument for `.get` are the definitions order. First definition, second definition, etc. 
 
 > There are more than `table`.definition:
 - api.success
