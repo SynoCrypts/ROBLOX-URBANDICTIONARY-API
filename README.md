@@ -12,6 +12,7 @@
 > local UrbanDictionary = require(workspace.UrbanDictionaryAPI)
 > 
 > local HelloWorldInfo = UrbanDictionary.get("hello world", 2)
+> 
 > print(HelloWorldInfo.definition)
 
 - Run the game, open output and it will print the definition.
